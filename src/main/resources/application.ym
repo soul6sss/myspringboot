@@ -1,0 +1,16 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    port: 9090
+    username: 2782362115@qq.com
+    password: ${bqrwvxkvjlhrdgab} # 这里是QQ邮箱“授权码”，不是登录密码
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+        smtp.ssl.enable: true
+        debug: true
+app:
+  mail:
+    from: 2782362115@qq.com
